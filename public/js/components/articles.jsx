@@ -24,7 +24,7 @@ let Articles = React.createClass({
                                 <h2>{e.title}</h2>
                                 <label>{e.author}</label>
                                 <p>{e.content.substr(0, 200)}...</p>
-                                <a href=/article/{e._id}>Voir Plus</a>
+                                <a href={e._id}>Voir Plus</a>
                             </div>
                         </div>
                     </div>
